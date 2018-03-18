@@ -1,0 +1,15 @@
+
+-
+
+  url : http://api.nnzhp.cn/api/product/all
+  method : get
+  check :
+    - 挨粪叉
+    - ipad
+
+
+
+
+
+
+

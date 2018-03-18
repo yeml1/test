@@ -1,0 +1,26 @@
+
+-
+
+  url : http://api.nnzhp.cn/api/user/login
+  method : post
+  data :
+    username : niuhanyang
+    passwd : aA123456
+  check :
+    - sign
+    - userId
+
+
+-
+
+  url : http://api.nnzhp.cn/api/user/login
+  method : post
+  data :
+    username : niuhanyang
+  check :
+    error_code : 3001
+  is_json : 1
+
+
+
+
